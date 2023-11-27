@@ -21,10 +21,15 @@ My customized Louvain approach enhances the conventional Two-Phase Heuristic, ty
 - **QuIP_CVRP.ipynb:** 
   - Final version of the code developed during my research.
 
-- **OLD_Quip_CVRP:**
+- **OLD_Quip_CVRP.ipynb:**
   - Contains an older version of the code.
   - Experimented with a warm start strategy initializing QAOA parameters from Louvain clusters.
   - Unfortunately, this approach did not yield improvements.
   - Discarded in favor of further optimizations presented in the final notebook.
+
+- **Test_data_analysis.ipynb:**
+  - Statistical analysis of numerical experiment results.
+  - Includes visualizations, trends, and insights drawn from the data.
+  - Provides a comprehensive overview of the experimental outcomes.
   
 For a comprehensive understanding, I recommend reading the thesis abstract.
