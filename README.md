@@ -11,7 +11,7 @@ My thesis delves into the Capacitated Vehicle Routing Problem (CVRP), a variant 
 According to this heuristic, customers are first clustered to allocate them among available vehicles. Then, for each vehicle, a TSP is modeled on its assigned cluster. To handle subtour elimination in the TSP phase, I employ the recursive Dantzig-Fulkerson-Johnson strategy. For the clustering phase, I explore three approaches: Multi-Knapsack Problem, Modularity Maximization CO problem, and a customized Louvain greedy modularity maximization algorithm.
 
 # Optimization Algorithms
-The research evaluates four optimization algorithms: Adiabatic Quantum Computation, Quantum Graver Augmentation Multi-seed Algorithm, Variational Quantum Eigensolver, and Quantum Approximate Optimization Algorithm. Each algorithm is thoroughly discussed, including various warm-start strategies.
+The research evaluates four optimization algorithms: Adiabatic Quantum Computation, Quantum Graver Augmented Multi-seed Algorithm, Variational Quantum Eigensolver, and Quantum Approximate Optimization Algorithm. Each algorithm is thoroughly discussed, including various warm-start strategies.
 
 # Innovative Louvain Approach
 My customized Louvain approach enhances the conventional Two-Phase Heuristic, typically reliant on MKP clustering. The Louvain approach not only improves final solutions but is also anticipated to scale better to larger problem instances, as solving Louvain on a large graph is significantly faster than achieving optimality with MKP.
